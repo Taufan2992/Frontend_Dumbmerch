@@ -49,7 +49,7 @@ const editProfile = (id) => {
             </div>
             <div class="row ">
               <div class="col-6 ">
-                <img src={"http://localhost:5000/uploads/" + profile?.image || blank} class={"d-block mx-lg-auto ps-4"} width="300px" height="400px" alt="..." style={{objectFit:"cover"}}/>
+                <img src={profile?.image || blank} class={"d-block mx-lg-auto ps-4"} width="300px" height="400px" alt="..." style={{objectFit:"cover"}}/>
                 <button class="btn btn-success mt-5 ms-5" onClick={() => {
                 editProfile(profile?.id);
               }}> Edit Prodile</button>
