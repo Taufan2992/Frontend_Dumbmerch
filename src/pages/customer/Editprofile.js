@@ -145,7 +145,7 @@ console.log(preview);
               <input
                 type="number"
                 placeholder="Phone Number"
-                name="postcode"
+                name="phone"
                 onChange={handleOnChange}
                 className="form-control text-white border-form bg-dark"
                 value={profile?.phone}
